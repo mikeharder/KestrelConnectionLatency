@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace DelayApiServer.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [Controller]
     public class HttpClientController : ControllerBase
     {
         private static readonly Random _random = new Random();
